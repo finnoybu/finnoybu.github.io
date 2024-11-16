@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE)
 [![Last Commit](https://img.shields.io/github/last-commit/finnoybu/finnoybu.github.io)](./commits)
-[![Issues](https://img.shields.io/github/issues/finnoybu/finnoybu.github.io)(./issues)
+[![Issues](https://img.shields.io/github/issues/finnoybu/finnoybu.github.io)](./issues)
 
 A customizable landing page for your GitHub Pages site that dynamically loads and displays your GitHub Profile's `README.md` content. This project helps maintain consistency between your GitHub Profile and GitHub Pages site.
 
