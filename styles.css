@@ -39,6 +39,11 @@ h1 {
     color: #24292f;
 }
 
+h2 {
+    display:inline;
+}
+    
+
 a {
     color: #0366d6;
 }
