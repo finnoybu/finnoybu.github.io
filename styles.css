@@ -9,7 +9,6 @@ body {
 }
 
 svg {
-
   position: absolute;
   top: 60px;
   right: 40px;
@@ -54,9 +53,7 @@ svg {
 
 .markdown-body img {
   display: inline;
-
-    position: absolute;
-    top: 60px;
-    right: 40px;
-    z-index: 10;
+  top: 60px;
+  right: 40px;
+  z-index: 10;
 }
