@@ -6,6 +6,13 @@ body {
     background-color: #f6f8fa;
 }
 
+svg {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    z-index: 10;
+}
+
 .container {
     max-width: 980px;
     margin: 0 auto;
@@ -14,46 +21,35 @@ body {
 }
 
 .markdown-body {
-    padding: 20px;
-    background-color: #fff;
+    padding: 24px;
     border-radius: 6px;
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
     overflow-wrap: break-word;
     word-wrap: break-word;
-    /* Add some padding to ensure the content doesn't overlap the SVG */
 }
 
-/* Style for the SVG */
-svg {
-    position: absolute;
-    top: 60px;
-    /* Adjust the top position of the SVG */
-    right: 40px;
-    /* Align the SVG to the right of the container */
-    z-index: 10;
-    /* Set a higher z-index to ensure it's above the content */
+
+.markdown-body a {
+    text-decoration: underline;
+    text-underline-offset: 3.2px;
 }
 
-h1 {
-    font-size: 2.5em;
+.markdown-body h1 {
+    font-size: 2em;
     color: #24292f;
 }
 
-h2 {
-    display: inline;
+.markdown-body h2 {
+    font-size: 1.5em;
 }
 
-a {
-    color: #0366d6;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-code {
+.markdown-body code {
     font-size: 1em;
     background-color: #f6f8fa;
     padding: 2px 5px;
     border-radius: 3px;
+}
+
+.markdown-body img {
+    display: inline;
 }
