@@ -1,6 +1,10 @@
-# GitHub Profile Page
+# GitHub.io Profile Page
 
-A customizable landing page for your GitHub profile that dynamically loads and displays your GitHub `README.md` content. This project helps maintain consistency between your GitHub Profile and GitHub Pages site.
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/finnoybu/finnoybu.github.io)](./commits)
+[![Issues](https://img.shields.io/github/issues/finnoybu/finnoybu.github.io)(./issues)
+
+A customizable landing page for your GitHub Pages site that dynamically loads and displays your GitHub Profile's `README.md` content. This project helps maintain consistency between your GitHub Profile and GitHub Pages site.
 
 ## Table of Contents
 
@@ -92,7 +96,7 @@ Please make sure to follow the [Code of Conduct](CODE_OF_CONDUCT.md) and adhere 
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License** - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 
