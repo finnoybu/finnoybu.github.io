@@ -1,6 +1,6 @@
 # GitHub.io Profile Page
 
-[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-blue.svg)](LICENSE.md)
 [![Last Commit](https://img.shields.io/github/last-commit/finnoybu/finnoybu.github.io)](./commits)
 [![Issues](https://img.shields.io/github/issues/finnoybu/finnoybu.github.io)](./issues)
 
