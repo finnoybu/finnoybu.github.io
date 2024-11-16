@@ -1,11 +1,37 @@
-/* Additional custom styling to match GitHub's look */
+/* Import GitHub markdown CSS */
+@import url("https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.css");
+
+@media (prefers-color-scheme: dark) {
+  body,
+  [data-theme="dark"] {
+    /* dark */
+    color-scheme: dark;
+    --bgColor-default: #0d1117;
+    --bgColor-muted: #151b23;
+    --bgColor-neutral-muted: #656c7633;
+    --bgColor-attention-muted: #bb800926;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  body,
+  [data-theme="light"] {
+    /* dark */
+    color-scheme: light;
+    --bgColor-default: #ffffff;
+    --bgColor-muted: #f6f8fa;
+    --bgColor-neutral-muted: #818b981f;
+    --bgColor-attention-muted: #fff8c5;
+  }
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f6f8fa;
+  background-color: var(--bgColor-muted)
 }
 
 svg {
@@ -37,7 +63,6 @@ svg {
 
 .markdown-body h1 {
   font-size: 2em;
-/*   color: #24292f; */
 }
 
 .markdown-body h2 {
@@ -46,7 +71,7 @@ svg {
 
 .markdown-body code {
   font-size: 1em;
-  background-color: #f6f8fa;
+  background-color: var(--bgColor-muted)
   padding: 2px 5px;
   border-radius: 3px;
 }
